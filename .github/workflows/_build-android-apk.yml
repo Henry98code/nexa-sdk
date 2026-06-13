@@ -2,6 +2,7 @@ name: Build Android Demo APK
 
 on:
   workflow_call:
+  workflow_dispatch:
     inputs:
       upload_artifact:
         description: "Whether to upload the APK artifact"
