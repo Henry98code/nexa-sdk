@@ -2,6 +2,7 @@ name: Build SDK
 
 on:
   workflow_call:
+  workflow_dispatch:
     inputs:
       version_tag:
         description: "Explicit version tag (e.g. v1.2.3-rc.1). Passed to the version action."
